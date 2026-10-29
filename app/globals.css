@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  /* Royal Indigo Luxury Dark Theme */
+  --bg-primary: #071D32;
+  --bg-secondary: #0B2942;
+  --bg-card: #123B5D;
+  --accent-primary: #D6A23D;
+  --accent-primary-hover: #c49232;
+  --accent-secondary: #E8C875;
+  --text-heading: #F5F7FA;
+  --text-body: #DCE5EF;
+  --text-muted: #A9BBCB;
+  --border-color: #29465F;
+  --input-bg: #0B2942;
+
+  --background: var(--bg-primary);
+  --foreground: var(--text-body);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-royal-bg: var(--bg-primary);
+  --color-royal-surface: var(--bg-secondary);
+  --color-royal-card: var(--bg-card);
+  --color-royal-gold: var(--accent-primary);
+  --color-royal-gold-light: var(--accent-secondary);
+  --color-royal-heading: var(--text-heading);
+  --color-royal-body: var(--text-body);
+  --color-royal-muted: var(--text-muted);
+  --color-royal-border: var(--border-color);
+  --color-royal-input: var(--input-bg);
+
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #071D32;
+  color: #DCE5EF;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background-color: #D6A23D;
+  color: #071D32;
+}
+
+/* Custom scrollbar for royal theme */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #071D32;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #29465F;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D6A23D;
+}

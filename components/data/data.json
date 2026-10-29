@@ -1,0 +1,706 @@
+{
+  "common": {
+    "Header": {
+      "logo_text": "PranaRise - Yoga & Fitness",
+      "logo_subtext": "YOGA & FITNESS",
+      "logo_image": "/logo/logo.webp",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Classes",
+          "href": "#services"
+        },
+        {
+          "name": "Packages",
+          "href": "#packages"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-us"
+        },
+        {
+          "name": "Trainers",
+          "href": "#team"
+        },
+        {
+          "name": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Reviews",
+          "href": "#testimonials"
+        }
+      ],
+      "button_text": "Book Class",
+      "button_link": "#contact"
+    },
+    "Footer": {
+      "logo_text": "PranaRise - Yoga & Fitness",
+      "logo_subtext": "YOGA & FITNESS",
+      "logo_image": "/logo/logo.webp",
+      "description": "PranaRise is a premier luxury yoga and fitness academy dedicated to holistic mind-body wellness, transformative practice, and personal vitality.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "icon": "Twitter",
+          "href": "https://twitter.com"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://youtube.com"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Classes",
+          "href": "#services"
+        },
+        {
+          "name": "Packages",
+          "href": "#packages"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-us"
+        },
+        {
+          "name": "Trainers",
+          "href": "#team"
+        },
+        {
+          "name": "Gallery",
+          "href": "#gallery"
+        },
+        {
+          "name": "Reviews",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Book Session",
+          "href": "#appointment"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "contact": {
+        "phone": "+1 (555) 234-5678",
+        "hours": "Mon - Sun: 6:00 AM - 9:00 PM",
+        "email": "info@pranarise.com",
+        "address": "108 Serenity Boulevard, Wellness Quarter, NY 10001",
+        "reply_text": "Concierge replies within 2 hours"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "gallery": [
+        "/gallery/1.webp",
+        "/gallery/2.webp",
+        "/gallery/3.webp",
+        "/gallery/4.webp",
+        "/gallery/5.webp",
+        "/gallery/6.webp"
+      ]
+    }
+  },
+  "categories": {
+    "Yoga": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "home",
+              "metadata": {
+                "title": "PranaRise - Yoga & Fitness Academy",
+                "description": "Experience transformative yoga sessions, mindful fitness training, and holistic wellness at PranaRise - Yoga & Fitness Academy."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "PackagesSection",
+                  "component": "Packages"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs"
+                },
+                {
+                  "key": "StatsSection",
+                  "component": "Stats"
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                },
+                {
+                  "key": "GallerySection",
+                  "component": "Gallery"
+                },
+                {
+                  "key": "AppointmentSection",
+                  "component": "Appointment"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "subtitle": "TRANSFORMATIVE YOGA & FITNESS",
+              "title_line1": "Awaken Your Inner",
+              "title_line2": "Strength & Vitality at",
+              "title_highlight": "PranaRise",
+              "description": "Experience holistic yoga sessions, breathwork, and mindful strength conditioning guided by certified master gurus in a luxury sanctuary.",
+              "primary_button": {
+                "text": "Book a Class",
+                "href": "#appointment"
+              },
+              "secondary_button": {
+                "text": "Explore Classes",
+                "href": "#services"
+              },
+              "image": "/img/hero.webp",
+              "badges": [
+                {
+                  "icon": "Award",
+                  "label": "Certified Yoga Masters"
+                },
+                {
+                  "icon": "Sparkles",
+                  "label": "Mind-Body Wellness"
+                }
+              ],
+              "video": "/video/bannervideo.mp4"
+            },
+            "about": {
+              "subtitle": "WELCOME TO PRANARISE - YOGA & FITNESS",
+              "title_line1": "Empower Your Body,",
+              "title_line2": "Calm Your Mind With",
+              "title_highlight": "Mindful Yoga &",
+              "title_line3": "Holistic Fitness",
+              "description": "At PranaRise - Yoga & Fitness, we believe yoga is a path to profound personal harmony and physical vitality. Whether you are beginning your journey or deepening an advanced practice, our certified trainers guide you with personalized attention in an uplifting, serene environment.",
+              "image": "/img/about.webp",
+              "cards": [
+                {
+                  "icon": "Flower2",
+                  "title": "Authentic Asanas",
+                  "description": "Master ancient yoga postures with precision, breath alignment, and balance."
+                },
+                {
+                  "icon": "Heart",
+                  "title": "Certified Gurus",
+                  "description": "Experienced yoga masters dedicated to guiding your physical and mental growth."
+                }
+              ],
+              "button": {
+                "text": "Explore Our Academy",
+                "href": "#services"
+              }
+            },
+            "services": {
+              "subtitle": "OUR YOGA DISCIPLINES",
+              "title": "Explore Our Yoga & Mindful Movement Disciplines",
+              "items": [
+                {
+                  "title": "Hatha Yoga Mastery",
+                  "subtitle": "Foundation, Posture & Breath Control",
+                  "icon": "Flower2",
+                  "image": "/services/hatha.webp",
+                  "content_title": "Build Core Strength & Mindful Posture",
+                  "description": "Hatha yoga focuses on classical physical postures, steady breathing, and mindful alignment. It develops lasting flexibility, core stability, and deep mental focus.",
+                  "benefits": [
+                    "Enhances body flexibility",
+                    "Improves posture & alignment",
+                    "Reduces physical tension"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                },
+                {
+                  "title": "Vinyasa Flow Dynamics",
+                  "subtitle": "Synchronized Breath & Movement",
+                  "icon": "Wind",
+                  "image": "/services/vinyasa.webp",
+                  "content_title": "Flow Gracefully with Dynamic Rhythm",
+                  "description": "A fluid, invigorating sequence coordinating continuous movement with conscious inhalations and exhalations, building cardiovascular stamina and metabolic vigor.",
+                  "benefits": [
+                    "Boosts stamina & cardio health",
+                    "Strengthens full-body muscles",
+                    "Improves mental clarity"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                },
+                {
+                  "title": "Pranayama & Meditation",
+                  "subtitle": "Breathwork & Inner Stillness",
+                  "icon": "Brain",
+                  "image": "/services/meditation.webp",
+                  "content_title": "Calm the Mind & Awaken Inner Peace",
+                  "description": "Ancient yogic breath techniques paired with deep mindfulness meditation to reduce stress, regulate the nervous system, and cultivate unwavering inner peace.",
+                  "benefits": [
+                    "Reduces stress & anxiety",
+                    "Sharpens concentration & focus",
+                    "Restores nervous system harmony"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                },
+                {
+                  "title": "Ashtanga Power Yoga",
+                  "subtitle": "Vigorous Sequence & Endurance",
+                  "icon": "Sparkles",
+                  "image": "/services/ashtanga.webp",
+                  "content_title": "Intense Dynamic Sequences for Strength",
+                  "description": "A structured series of progressive postures designed to generate internal cleansing heat, sculpt lean muscle tone, and test physical and mental discipline.",
+                  "benefits": [
+                    "Builds lean muscle strength",
+                    "Detoxifies through internal heat",
+                    "Develops mental resilience"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                },
+                {
+                  "title": "Restorative Yin Yoga",
+                  "subtitle": "Deep Fascia & Joint Release",
+                  "icon": "HeartPulse",
+                  "image": "/services/yin.webp",
+                  "content_title": "Release Deep Tension & Renew Tissues",
+                  "description": "Slow-paced meditative practice holding gentle passive poses for 3 to 5 minutes, targeting deep connective tissues, ligaments, and fascia.",
+                  "benefits": [
+                    "Increases joint mobility",
+                    "Releases chronic myofascial stress",
+                    "Promotes profound relaxation"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                },
+                {
+                  "title": "Yoga Therapy & Mobility",
+                  "subtitle": "Rehabilitation & Back Health",
+                  "icon": "Heart",
+                  "image": "/services/power.webp",
+                  "content_title": "Therapeutic Care for Recovery & Health",
+                  "description": "Customized therapeutic adaptations designed to relieve back pain, correct muscle imbalances, support healthy aging, and rehabilitate injuries.",
+                  "benefits": [
+                    "Relieves back and neck discomfort",
+                    "Aids in injury recovery",
+                    "Enhances long-term joint health"
+                  ],
+                  "button_text": "Book a Class",
+                  "button_link": "#contact"
+                }
+              ],
+              "button_text": "Book a Class",
+              "button_link": "#contact"
+            },
+            "packages": {
+              "subtitle": "MEMBERSHIP PLANS",
+              "title_line1": "Choose Your",
+              "title_highlight": "Yoga Membership",
+              "description": "Flexible packages designed for beginners, dedicated practitioners, and fitness enthusiasts looking for transformational results.",
+              "items": [
+                {
+                  "id": 1,
+                  "title": "Beginner Yoga Package",
+                  "subtitle": "Foundations & Breathwork",
+                  "image": "/pakeges/pkg_beginner.webp",
+                  "price": "",
+                  "period": "/ Month",
+                  "features": [
+                    "8 Guided beginner studio classes",
+                    "Foundational breathwork & asanas",
+                    "Yoga mat & prop support provided",
+                    "Personal posture alignment check"
+                  ],
+                  "button_text": "Book Now",
+                  "button_link": "#contact",
+                  "is_popular": false
+                },
+                {
+                  "id": 2,
+                  "title": "Flexibility & Core Mobility",
+                  "subtitle": "Deep Stretching & Alignment",
+                  "image": "/pakeges/pkg_flexibility.webp",
+                  "price": "",
+                  "period": "/ Month",
+                  "features": [
+                    "Unlimited Vinyasa & Yin classes",
+                    "Advanced mobility coaching",
+                    "Weekly sound bath meditation",
+                    "10% off specialty workshops"
+                  ],
+                  "button_text": "Book Now",
+                  "button_link": "#contact",
+                  "is_popular": true,
+                  "badge": "Most Popular"
+                },
+                {
+                  "id": 3,
+                  "title": "Power & Weight Loss Yoga",
+                  "subtitle": "Strength, Flow & Calorie Burn",
+                  "image": "/pakeges/pkg_weightloss.webp",
+                  "price": "",
+                  "period": "/ Month",
+                  "features": [
+                    "Unlimited Ashtanga & Power Yoga",
+                    "Personalized fitness & nutrition guide",
+                    "Body composition tracking",
+                    "Monthly 1-on-1 private coaching"
+                  ],
+                  "button_text": "Book Now",
+                  "button_link": "#contact",
+                  "is_popular": false
+                },
+                {
+                  "id": 4,
+                  "title": "Stress Relief & Meditation",
+                  "subtitle": "Pranayama & Inner Peace",
+                  "image": "/pakeges/pkg_stress.webp",
+                  "price": "",
+                  "period": "/ Month",
+                  "features": [
+                    "Unlimited evening restorative classes",
+                    "Guided Pranayama & mindfulness labs",
+                    "Herbal wellness tea lounge access",
+                    "Online live meditation library"
+                  ],
+                  "button_text": "Book Now",
+                  "button_link": "#contact",
+                  "is_popular": false
+                }
+              ]
+            },
+            "why_choose_us": {
+              "subtitle": "WHY PRANARISE",
+              "title_line1": "Why Practice With",
+              "title_line2": "PranaRise Academy",
+              "description": "Experience the ideal blend of traditional yogic wisdom, state-of-the-art studio facilities, and certified personal mentorship.",
+              "center_image": "/img/why-us.webp",
+              "left_features": [
+                {
+                  "icon": "Award",
+                  "title": "Certified Yoga Masters",
+                  "desc": "Internationally recognized instructors with thousands of hours of teaching experience."
+                },
+                {
+                  "icon": "Users",
+                  "title": "Intimate Class Sizes",
+                  "desc": "Small groups ensure individual attention, hands-on adjustments, and faster progress."
+                },
+                {
+                  "icon": "Heart",
+                  "title": "Mind-Body Philosophy",
+                  "desc": "Comprehensive training combining physical postures, breath control, and meditation."
+                }
+              ],
+              "right_features": [
+                {
+                  "icon": "Sparkles",
+                  "title": "Luxury Zen Sanctuary",
+                  "desc": "Climate-controlled studios, organic air filtration, and acoustic sound insulation."
+                },
+                {
+                  "icon": "CheckCircle2",
+                  "title": "Personalized Coaching",
+                  "desc": "Customized modifications tailored to your fitness level, mobility, and goals."
+                },
+                {
+                  "icon": "Smile",
+                  "title": "Vibrant Community",
+                  "desc": "A warm, inclusive space welcoming practitioners of all ages and backgrounds."
+                }
+              ]
+            },
+            "stats": {
+              "items": [
+                {
+                  "value": "15+",
+                  "label": "Years Experience",
+                  "icon": "Award"
+                },
+                {
+                  "value": "5,000+",
+                  "label": "Happy Yogis",
+                  "icon": "Users"
+                },
+                {
+                  "value": "40+",
+                  "label": "Certified Masters",
+                  "icon": "Sparkles"
+                },
+                {
+                  "value": "99%",
+                  "label": "Satisfaction Rate",
+                  "icon": "Heart"
+                }
+              ]
+            },
+            "team": {
+              "subtitle": "MASTER INSTRUCTORS",
+              "title": "Meet Our Certified Yoga & Fitness Gurus",
+              "members": [
+                {
+                  "name": "Maya Sharma",
+                  "role": "Master Yoga Acharya",
+                  "description": "With over 14 years teaching classical Hatha and Ashtanga, Maya guides students to discover inner power and alignment.",
+                  "image": "/team/1.webp",
+                  "socials": [
+                    {
+                      "icon": "Facebook",
+                      "href": "https://facebook.com"
+                    },
+                    {
+                      "icon": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Aarav Patel",
+                  "role": "Vinyasa & Flow Specialist",
+                  "description": "Former athlete turned yogi, Aarav specializes in dynamic Vinyasa flows that build lean strength and cardio endurance.",
+                  "image": "/team/2.webp",
+                  "socials": [
+                    {
+                      "icon": "Facebook",
+                      "href": "https://facebook.com"
+                    },
+                    {
+                      "icon": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Priya Sen",
+                  "role": "Pranayama & Yin Guru",
+                  "description": "Priya brings deep restorative knowledge, helping practitioners alleviate stress, release fascia, and master breathwork.",
+                  "image": "/team/3.webp",
+                  "socials": [
+                    {
+                      "icon": "Facebook",
+                      "href": "https://facebook.com"
+                    },
+                    {
+                      "icon": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
+                },
+                {
+                  "name": "Vikram Roy",
+                  "role": "Strength & Alignment Coach",
+                  "description": "Vikram combines athletic conditioning with therapeutic alignment to build bulletproof joints and core stability.",
+                  "image": "/team/4.webp",
+                  "socials": [
+                    {
+                      "icon": "Facebook",
+                      "href": "https://facebook.com"
+                    },
+                    {
+                      "icon": "Instagram",
+                      "href": "https://instagram.com"
+                    }
+                  ]
+                }
+              ],
+              "button": {
+                "text": "Join Our Community",
+                "href": "#appointment"
+              }
+            },
+            "gallery": {
+              "subtitle": "OUR STUDIO MOMENTS",
+              "title_line1": "Glimpse into Our",
+              "title_highlight": "Yoga Sanctuary",
+              "description": "Explore transformative moments from our daily practices, meditation circles, and serene studio spaces.",
+              "items": [
+                {
+                  "id": 1,
+                  "image": "/gallery/1.webp",
+                  "title": "Cobra Pose Flow"
+                },
+                {
+                  "id": 2,
+                  "image": "/gallery/2.webp",
+                  "title": "Namaste Meditation"
+                },
+                {
+                  "id": 3,
+                  "image": "/gallery/3.webp",
+                  "title": "Bow Pose Practice"
+                },
+                {
+                  "id": 4,
+                  "image": "/gallery/4.webp",
+                  "title": "Cobra Alignment"
+                },
+                {
+                  "id": 5,
+                  "image": "/gallery/5.webp",
+                  "title": "Bridge & Wheel Pose"
+                },
+                {
+                  "id": 6,
+                  "image": "/gallery/6.webp",
+                  "title": "Downward-Facing Dog"
+                },
+                {
+                  "id": 7,
+                  "image": "/gallery/7.webp",
+                  "title": "Group Yoga Class"
+                },
+                {
+                  "id": 8,
+                  "image": "/gallery/8.webp",
+                  "title": "King Pigeon Pose"
+                },
+                {
+                  "id": 9,
+                  "image": "/gallery/9.webp",
+                  "title": "Core Boat Balance"
+                },
+                {
+                  "id": 10,
+                  "image": "/gallery/10.webp",
+                  "title": "Spinal Twist Pose"
+                },
+                {
+                  "id": 11,
+                  "image": "/gallery/11.webp",
+                  "title": "Side Angle Stretch"
+                },
+                {
+                  "id": 12,
+                  "image": "/gallery/12.webp",
+                  "title": "Outdoor Lotus Dhyana"
+                }
+              ]
+            },
+            "appointment": {
+              "subtitle": "START YOUR PRACTICE",
+              "title_line1": "Book Your",
+              "title_highlight": "Yoga Session",
+              "description": "Begin your transformative journey with PranaRise. Reserve your spot in our studio classes or schedule a private consultation.",
+              "form_title_line1": "Reserve Your",
+              "form_title_highlight": "Class Spot",
+              "form_description": "Fill in your details below and our concierge will confirm your session within 2 hours.",
+              "name_placeholder": "Full Name",
+              "email_placeholder": "Email Address",
+              "phone_placeholder": "Phone Number",
+              "date_placeholder": "Select Date",
+              "time_placeholder": "Select Time Slot",
+              "service_placeholder": "Choose Yoga Discipline",
+              "message_placeholder": "Any health conditions or fitness goals?",
+              "button_text": "Confirm Reservation",
+              "success_message": "Your yoga class reservation has been submitted! Our concierge will contact you shortly.",
+              "image": "/img/appointment_banner.webp",
+              "services": [
+                "Hatha Yoga Mastery",
+                "Vinyasa Flow Dynamics",
+                "Pranayama & Meditation",
+                "Ashtanga Power Yoga",
+                "Restorative Yin Yoga",
+                "Yoga Therapy & Mobility"
+              ],
+              "time_slots": [
+                "06:00 AM - 07:15 AM (Sunrise Flow)",
+                "07:30 AM - 08:45 AM (Morning Vinyasa)",
+                "09:00 AM - 10:15 AM (Hatha Mastery)",
+                "11:00 AM - 12:15 PM (Therapy & Mobility)",
+                "05:00 PM - 06:15 PM (Power Ashtanga)",
+                "06:30 PM - 07:45 PM (Yin & Meditation)",
+                "08:00 PM - 09:00 PM (Candlelit Restorative)"
+              ],
+              "features": [
+                {
+                  "icon": "Award",
+                  "title": "Certified Gurus",
+                  "desc": "All sessions guided by certified masters with 500+ RYT credentials."
+                },
+                {
+                  "icon": "Sparkles",
+                  "title": "Props Provided",
+                  "desc": "Complimentary premium mats, cork blocks, and bolsters in every class."
+                },
+                {
+                  "icon": "Clock",
+                  "title": "Flexible Rescheduling",
+                  "desc": "Change your booking up to 2 hours before class without penalty."
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "MEMBER EXPERIENCES",
+              "title": "What Our Yogis Say About PranaRise",
+              "reviews": [
+                {
+                  "text": "PranaRise transformed my lifestyle. The instructors give precise adjustments, and the peaceful ambiance makes every class feel like a retreat from the hectic city.",
+                  "rating": 5,
+                  "author": "Ananya Roy",
+                  "role": "Vinyasa Practitioner",
+                  "location": "New York, NY",
+                  "avatar": "/testimonials/1.webp"
+                },
+                {
+                  "text": "After struggling with chronic lower back pain for years, the Yoga Therapy and Hatha classes here gave me my mobility back. The instructors genuinely care about each student.",
+                  "rating": 5,
+                  "author": "Marcus Chen",
+                  "role": "Member since 2023",
+                  "location": "Brooklyn, NY",
+                  "avatar": "/testimonials/2.webp"
+                },
+                {
+                  "text": "The Yin yoga and evening meditation classes are pure magic. The royal ambience, sound baths, and herbal teas make PranaRise the best wellness studio I have ever experienced.",
+                  "rating": 5,
+                  "author": "Elena Rostova",
+                  "role": "Mindfulness Student",
+                  "location": "Manhattan, NY",
+                  "avatar": "/testimonials/3.webp"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
